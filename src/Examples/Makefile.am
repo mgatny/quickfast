@@ -18,5 +18,5 @@ libinterpret_application_la_SOURCES = \
 	InterpretApplication/InterpretApplication.cpp
 
 bin_PROGRAMS = interpret_application
-interpret_application_LDADD = libinterpret_application.la $(LIBQUICKFASTDIR)/libQuickFAST.la -lxerces-c -l:libboost_filesystem.so.1.58.0 -lboost_system -lboost_thread -lpthread
+interpret_application_LDADD = libinterpret_application.la $(LIBQUICKFASTDIR)/libQuickFAST.la -lxerces-c -lboost_system -lboost_thread
 interpret_application_SOURCES = InterpretApplication/main.cpp
