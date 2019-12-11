@@ -23,7 +23,7 @@ lib/
 /bin
 /Output
 
-Makefile*
+Makefile
 .depend*
 *.sln
 make
@@ -85,3 +85,6 @@ src/unit_tests
 src/*.la
 src/*.lo
 src/*.o
+
+src/Examples/interpret_application
+

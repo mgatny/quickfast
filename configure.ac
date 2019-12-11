@@ -38,6 +38,6 @@ AC_CHECK_TYPES([ptrdiff_t])
 AC_FUNC_ERROR_AT_LINE
 AC_CHECK_FUNCS([memset pow socket sqrt])
 
-AC_CONFIG_FILES([Makefile src/Makefile])
+AC_CONFIG_FILES([Makefile src/Makefile src/Examples/Makefile src/Examples/InterpretApplication/Makefile])
 LT_INIT
 AC_OUTPUT
