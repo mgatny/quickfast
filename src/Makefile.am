@@ -1,4 +1,4 @@
-SUBDIRS = . Examples
+SUBDIRS = . Examples Tests
 
 if GCC
 NO_OPT_CXXFLAGS = $(PTHREAD_CFLAGS) -Wall -Wwrite-strings -Woverloaded-virtual -Wno-sign-compare

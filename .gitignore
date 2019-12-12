@@ -92,3 +92,4 @@ src/Examples/file_to_tcp
 src/Examples/pcap_to_multicast
 src/Examples/performance_test
 src/Examples/tutorial_application
+src/Tests/unit_tests

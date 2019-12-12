@@ -7,13 +7,19 @@ The main QuickFAST repository is: https://github.com/objectcomputing/quickfast
 Install the dependencies, e.g. on ubuntu:
 
 ```shell
-  sudo apt-get install libxerces-c-dev libboost-system-dev libboost-chrono-dev libboost-random-dev libboost-thread-dev
+  sudo apt-get install    \
+    libxerces-c-dev       \
+    libboost-system-dev   \
+    libboost-chrono-dev   \
+    libboost-random-dev   \
+    libboost-thread-dev   \
+    libboost-test-dev
 ```
 
 Configure and build:
 
 ```shell
-  ./bootstrap.sh && ./configure && make
+  ./bootstrap.sh && ./configure && make && make check
 ```
 
 ## QuickFAST -- An implementation of the FAST protocol for native C++ and .NET
