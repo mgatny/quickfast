@@ -5,17 +5,17 @@ AM_CXXFLAGS = -I$(LIBQUICKFASTDIR)
 
 noinst_LTLIBRARIES = libexamples.la
 libexamples_la_SOURCES = \
-  Examples/ValueToFix.h           \
+	Examples/ValueToFix.h           \
 	Examples/ConsoleLock.h          \
 	Examples/StopWatch.h            \
 	Examples/MessageInterpreter.h   \
 	Examples/MessagePerformance.h   \
 	Examples/ExamplesPch.h          \
 	Examples/ConsoleLock.cpp        \
-  Examples/ExamplesPch.cpp        \
-  Examples/MessageInterpreter.cpp \
-  Examples/MessagePerformance.cpp \
-  Examples/ValueToFix.cpp
+	Examples/ExamplesPch.cpp        \
+	Examples/MessageInterpreter.cpp \
+	Examples/MessagePerformance.cpp \
+	Examples/ValueToFix.cpp
 
 bin_PROGRAMS = interpret_application tutorial_application file_to_multicast file_to_tcp pcap_to_multicast performance_test
 
