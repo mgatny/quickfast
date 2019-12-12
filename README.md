@@ -1,3 +1,21 @@
+## AUTOTOOLS-ENABLED BUILD
+
+**This branch allows you to build QuickFAST with autotools, which obviates the need for MPC, perl, and manally editing the environment variables in `setup.sh`.**
+
+The main QuickFAST repository is: https://github.com/objectcomputing/quickfast
+
+Install the dependencies, e.g. on ubuntu:
+
+```shell
+  sudo apt-get install libxerces-c-dev libboost-system-dev libboost-chrono-dev libboost-random-dev libboost-thread-dev
+```
+
+Configure and build:
+
+```shell
+  ./bootstrap.sh && ./configure && make
+```
+
 ## QuickFAST -- An implementation of the FAST protocol for native C++ and .NET
 
 QuickFAST is an Open Source native C++ implementation of the FAST Protocol [SM]. FAST(Fix Adapted for STreaming) protocol 
@@ -15,7 +33,7 @@ which may be used without payment of development or runtime license fees. OCI of
 
 For questions and discussion of QuickFAST, visit the [QuickFAST users mailing list](https://groups.google.com/forum/#!forum/quickfast_users)
 
-###List Rules:
+### List Rules:
 * Normal mailing list rules apply on the list. Discussions should be civil and on-topic. Offensive messages, off-topic chatter, and spam will not be tolerated.
 
 * Messages from new members will be moderated due to the high volume of spam postings that are sent to this (and any) mailing list. For practical purposes this means there may be a delay before your first message to the list is published. Once you have est
